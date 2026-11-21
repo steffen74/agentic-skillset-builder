@@ -1,0 +1,49 @@
+{
+  "core_version": "0.1.1",
+  "source": "https://github.com/steffen74/agentic-skillset-builder",
+  "setup": "setup-skillset",
+  "files": [
+    {
+      "core": "files/release-skillset.SKILL.md",
+      "path": ".claude/skills/release-skillset/SKILL.md",
+      "mode": "verbatim",
+      "core_sha": "1f1b0835a0f7",
+      "sha": "1f1b0835a0f7"
+    },
+    {
+      "core": "files/check_skillset.py",
+      "path": "scripts/check_skillset.py",
+      "mode": "verbatim",
+      "core_sha": "08e91ca4a16d",
+      "sha": "08e91ca4a16d"
+    },
+    {
+      "core": "files/DECISIONS.md",
+      "path": "skills/setup-skillset/templates/DECISIONS.md",
+      "mode": "skipped",
+      "core_sha": "4459c191075f",
+      "sha": null
+    },
+    {
+      "core": "files/SIGNALS.md",
+      "path": "skills/setup-skillset/templates/SIGNALS.md",
+      "mode": "skipped",
+      "core_sha": "e8c31e393d39",
+      "sha": null
+    },
+    {
+      "core": "files/show-canvas.SKILL.md",
+      "path": "skills/show-canvas/SKILL.md",
+      "mode": "adapted",
+      "core_sha": "e8444049a036",
+      "sha": "e8444049a036"
+    },
+    {
+      "core": "files/render_canvas.py",
+      "path": "skills/show-canvas/scripts/render_canvas.py",
+      "mode": "verbatim",
+      "core_sha": "b53de6d04972",
+      "sha": "b53de6d04972"
+    }
+  ]
+}

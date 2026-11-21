@@ -1,0 +1,28 @@
+{
+  "name": "agentic-skillset-builder",
+  "version": "0.1.0",
+  "description": "Build agentic skillsets - a canvas, a process and agent skills for one kind of work - with a coding agent: grill the practice, map the sources, design the canvas, draft the skills, dry-run them on an example case, review and release. Shares one core with every skillset it builds.",
+  "author": {
+    "name": "Steffen Brandt",
+    "url": "https://github.com/steffen74"
+  },
+  "repository": "https://github.com/steffen74/agentic-skillset-builder",
+  "license": "MIT",
+  "keywords": ["skills", "skill-authoring", "canvas", "process-design", "meta"],
+  "skills": [
+    "./skills/ask-builder",
+    "./skills/design-canvas",
+    "./skills/draft-skill",
+    "./skills/dry-run",
+    "./skills/grill-practice",
+    "./skills/map-sources",
+    "./skills/review-skillset",
+    "./skills/setup-skillset",
+    "./skills/show-canvas",
+    "./skills/skillset-conventions",
+    "./skills/skillset-core",
+    "./skills/skillset-retro",
+    "./skills/sync-core",
+    "./skills/to-skill-map"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "0.1.1",
+  "source": "https://github.com/steffen74/agentic-skillset-builder",
+  "files": [
+    {"core": "files/show-canvas.SKILL.md", "path": "skills/show-canvas/SKILL.md", "mode": "adapted"},
+    {"core": "files/render_canvas.py", "path": "skills/show-canvas/scripts/render_canvas.py", "mode": "verbatim"},
+    {"core": "files/check_skillset.py", "path": "scripts/check_skillset.py", "mode": "verbatim"},
+    {"core": "files/release-skillset.SKILL.md", "path": ".claude/skills/release-skillset/SKILL.md", "mode": "verbatim"},
+    {"core": "files/DECISIONS.md", "path": "skills/{setup}/templates/DECISIONS.md", "mode": "adapted"},
+    {"core": "files/SIGNALS.md", "path": "skills/{setup}/templates/SIGNALS.md", "mode": "adapted"}
+  ]
+}

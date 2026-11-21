@@ -1,0 +1,17 @@
+{
+  "name": "{{plugin}}",
+  "owner": {
+    "name": "{{Copyright holder}}",
+    "url": "https://github.com/{{owner}}"
+  },
+  "description": "{{Skillset name}} skills as an installable plugin.",
+  "plugins": [
+    {
+      "name": "{{plugin}}",
+      "source": "./",
+      "description": "{{One sentence, in the skillset's language.}}",
+      "category": "{{category}}",
+      "keywords": ["skills", "canvas", "{{domain keyword}}"]
+    }
+  ]
+}

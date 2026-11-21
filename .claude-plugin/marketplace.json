@@ -1,0 +1,17 @@
+{
+  "name": "agentic-skillset-builder",
+  "owner": {
+    "name": "Steffen Brandt",
+    "url": "https://github.com/steffen74"
+  },
+  "description": "Agentic skillset builder skills as an installable plugin.",
+  "plugins": [
+    {
+      "name": "agentic-skillset-builder",
+      "source": "./",
+      "description": "Build process- and canvas-based agentic skillsets with a coding agent.",
+      "category": "development",
+      "keywords": ["skills", "skill-authoring", "canvas"]
+    }
+  ]
+}

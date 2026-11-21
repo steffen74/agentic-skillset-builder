@@ -1,0 +1,16 @@
+{
+  "name": "{{plugin}}",
+  "version": "0.1.0",
+  "description": "{{One sentence from the README, in the skillset's language.}}",
+  "author": {
+    "name": "{{Copyright holder}}",
+    "url": "https://github.com/{{owner}}"
+  },
+  "repository": "https://github.com/{{owner}}/{{repo}}",
+  "license": "MIT",
+  "keywords": ["skills", "canvas", "{{domain keywords}}"],
+  "skills": [
+    "./skills/show-canvas",
+    "./skills/{{setup skill}}"
+  ]
+}

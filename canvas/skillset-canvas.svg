@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 1188 840" font-family="Helvetica, Arial, sans-serif">
+<title>Skillset Canvas</title>
+<desc>template-sha256:3b847d737bc5</desc>
+<rect x="0" y="0" width="1188" height="840" fill="#FFFFFF"/>
+<text x="30" y="58" font-size="26" font-weight="700" fill="#2C2C2A">Skillset Canvas</text>
+<text x="30" y="82" font-size="13" fill="#5F5E5A">The agent does the legwork, the maintainer decides, a dry run comes before release.</text>
+<text x="640" y="50" font-size="11" fill="#5F5E5A">Skillset</text><line x1="640" y1="78" x2="783" y2="78" stroke="#B4B2A9" stroke-width="1"/>
+<text x="813" y="50" font-size="11" fill="#5F5E5A">Maintainers</text><line x1="813" y1="78" x2="955" y2="78" stroke="#B4B2A9" stroke-width="1"/>
+<text x="985" y="50" font-size="11" fill="#5F5E5A">Language</text><line x1="985" y1="78" x2="1128" y2="78" stroke="#B4B2A9" stroke-width="1"/>
+<text x="30" y="112" font-size="15" font-weight="700" fill="#2C2C2A">Purpose</text>
+<rect x="30" y="125" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="151" font-size="17" font-weight="700" fill="#3C3489">1  Practice</text>
+<rect x="254" y="136" width="130" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="319.0" y="150" font-size="11" text-anchor="middle" fill="#3C3489">maintainer decides</text>
+<text x="44" y="173" font-size="11.5" fill="#534AB7">Which work, for whom, why with an agent?</text>
+<text x="44" y="189" font-size="11.5" fill="#534AB7">What goes wrong without skills?</text>
+<rect x="30" y="270" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="296" font-size="17" font-weight="700" fill="#3C3489">2  Users</text>
+<rect x="254" y="281" width="130" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="319.0" y="295" font-size="11" text-anchor="middle" fill="#3C3489">maintainer decides</text>
+<text x="44" y="318" font-size="11.5" fill="#534AB7">Who runs the skills, knowing what?</text>
+<text x="44" y="334" font-size="11.5" fill="#534AB7">The weakest user we still serve</text>
+<rect x="30" y="416" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="442" font-size="17" font-weight="700" fill="#3C3489">3  Outcomes</text>
+<rect x="254" y="426" width="130" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="319.0" y="440" font-size="11" text-anchor="middle" fill="#3C3489">maintainer decides</text>
+<text x="44" y="464" font-size="11.5" fill="#534AB7">What does good work look like?</text>
+<text x="44" y="480" font-size="11.5" fill="#534AB7">What the skillset does not do</text>
+<rect x="30" y="561" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="587" font-size="17" font-weight="700" fill="#3C3489">4  Evidence</text>
+<rect x="254" y="572" width="130" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="319.0" y="586" font-size="11" text-anchor="middle" fill="#3C3489">maintainer decides</text>
+<text x="44" y="609" font-size="11.5" fill="#534AB7">Criteria for each outcome</text>
+<text x="44" y="625" font-size="11.5" fill="#534AB7">Which signals from real use?</text>
+<text x="412" y="112" font-size="15" font-weight="700" fill="#2C2C2A">Design</text>
+<rect x="412" y="125" width="364" height="133" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="426" y="151" font-size="17" font-weight="700" fill="#085041">5  Sources</text>
+<rect x="672" y="136" width="94" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/><text x="719.0" y="150" font-size="11" text-anchor="middle" fill="#085041">agent drafts</text>
+<text x="426" y="173" font-size="11.5" fill="#0F6E56">Handbook, methods, canvases, practice</text>
+<text x="426" y="189" font-size="11.5" fill="#0F6E56">License and what we adopt</text>
+<rect x="412" y="270" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="426" y="296" font-size="17" font-weight="700" fill="#3C3489">6  Judgement boundary</text>
+<rect x="636" y="281" width="130" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="701.0" y="295" font-size="11" text-anchor="middle" fill="#3C3489">maintainer decides</text>
+<text x="426" y="318" font-size="11.5" fill="#534AB7">Agent: facts, legwork, drafts, checks</text>
+<text x="426" y="334" font-size="11.5" fill="#534AB7">User: every trade-off. Where it slips?</text>
+<rect x="412" y="416" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="426" y="442" font-size="14" font-weight="700" fill="#3C3489">7  Process and stop points</text>
+<rect x="636" y="426" width="130" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="701.0" y="440" font-size="11" text-anchor="middle" fill="#3C3489">maintainer decides</text>
+<text x="426" y="464" font-size="11.5" fill="#534AB7">Steps, each ending at a stop point</text>
+<text x="426" y="480" font-size="11.5" fill="#534AB7">Loops back from signals</text>
+<rect x="412" y="561" width="364" height="133" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="426" y="587" font-size="17" font-weight="700" fill="#085041">8  Checks</text>
+<rect x="672" y="572" width="94" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/><text x="719.0" y="586" font-size="11" text-anchor="middle" fill="#085041">agent drafts</text>
+<text x="426" y="609" font-size="11.5" fill="#0F6E56">Checks on the users&#x27; work</text>
+<text x="426" y="625" font-size="11.5" fill="#0F6E56">Checks on the skillset itself</text>
+<text x="794" y="112" font-size="15" font-weight="700" fill="#2C2C2A">Build and improve</text>
+<rect x="794" y="125" width="364" height="133" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="808" y="151" font-size="17" font-weight="700" fill="#085041">9  Skills</text>
+<rect x="1054" y="136" width="94" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/><text x="1101.0" y="150" font-size="11" text-anchor="middle" fill="#085041">agent drafts</text>
+<text x="808" y="173" font-size="11.5" fill="#0F6E56">Skills, roles, canvas blocks</text>
+<text x="808" y="189" font-size="11.5" fill="#0F6E56">Planned · drafted · dry-run · released</text>
+<rect x="794" y="270" width="364" height="133" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="808" y="296" font-size="17" font-weight="700" fill="#085041">10  Dry-run signals</text>
+<rect x="1054" y="281" width="94" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/><text x="1101.0" y="295" font-size="11" text-anchor="middle" fill="#085041">agent drafts</text>
+<text x="808" y="318" font-size="11.5" fill="#0F6E56">Dry runs on the example case</text>
+<text x="808" y="334" font-size="11.5" fill="#0F6E56">Feedback from real use</text>
+<rect x="794" y="416" width="364" height="278" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="808" y="442" font-size="17" font-weight="700" fill="#3C3489">11  Improvements</text>
+<rect x="1018" y="426" width="130" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="1083.0" y="440" font-size="11" text-anchor="middle" fill="#3C3489">maintainer decides</text>
+<text x="808" y="464" font-size="11.5" fill="#534AB7">What changes now, what next version</text>
+<text x="808" y="480" font-size="11.5" fill="#534AB7">Which signal became a check or rule</text>
+<rect x="30" y="710" width="555" height="80" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="1"/><text x="44" y="734" font-size="15" font-weight="700" fill="#444441">Open questions</text><text x="44" y="752" font-size="11.5" fill="#5F5E5A">Who resolves it, by when?</text>
+<rect x="603" y="710" width="555" height="80" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="1"/><text x="617" y="734" font-size="15" font-weight="700" fill="#444441">Decision log</text><text x="617" y="752" font-size="11.5" fill="#5F5E5A">Date · decision · reason · alternatives</text>
+<rect x="30" y="802" width="14" height="14" rx="3" fill="#EEEDFE" stroke="#534AB7"/><text x="50" y="813" font-size="11.5" fill="#2C2C2A">Maintainer decides</text><rect x="203" y="802" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56"/><text x="223" y="813" font-size="11.5" fill="#2C2C2A">Agent drafts, maintainer approves</text>
+<text x="1158" y="813" font-size="10.5" text-anchor="end" fill="#5F5E5A">Skillset Canvas v0.1 · CC BY 4.0 · github.com/steffen74/agentic-skillset-builder</text>
+</svg>
