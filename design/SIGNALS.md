@@ -2,6 +2,13 @@
 
 Everything that shows how the work is going: dry runs and checks before something counts, and what happened after. Newest first. The retro skill turns signals into fixes, checks and rules.
 
+## 2026-11-21 · setup-skillset · session
+
+- **What happened:** `gh repo create` was refused in a cloud session that may only reach repositories already attached to it. The maintainer had to ask for the exact command, and expects to need it every time.
+- **Who:** maintainer, setting up the builder and the Agentic Business Model Canvas skillset
+- **Severity:** friction
+- **Status:** fixed in `setup-skillset` (prints the exact `gh repo create` command for an empty repository, plus the github.com/new alternative)
+
 ## 2026-11-21 · core · dry run (smoke test)
 
 - **What happened:** In a scaffolded test skillset, `check_skillset.py` failed `skill-refs`: `design/`, `AGENTS.md` and the release skill refer to builder skills (`/dry-run`, `/sync-core`, `/setup-skillset`), which are not skills of the skillset itself.

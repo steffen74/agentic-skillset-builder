@@ -37,8 +37,14 @@ Take the sections in order, one answer each, leading with your recommendation. S
 3. Run `core_sync.py init --target <repo> --setup <setup skill>` (see `skillset-core`). Adapt the copied `adapted` files to the language from B, then `core_sync.py record` them.
 4. Create `examples/<case>/README.md` with the case from E.
 5. Record A–C in `design/DECISIONS.md`.
-6. `git init`, `git add -A`, first commit (`chore: scaffold skillset with the Agentic Skillset Builder`). For target 2: `gh repo create <owner>/<name> --<visibility> --source . --push`; if that is refused, tell the user, ask them to create the empty repository, and push into it. For target 3: write the ZIP next to the folder.
+6. `git init`, `git add -A`, first commit (`chore: scaffold skillset with the Agentic Skillset Builder`). For target 2: `gh repo create <owner>/<name> --<visibility> --source . --push`. If that is refused (some sessions may only reach existing repositories), give the user the exact command to run themselves, in its own code block, creating the repository empty so the first push lands cleanly:
 
-`python3 scripts/check_skillset.py` fails on `printed-canvas` until `/design-canvas` exists; everything else in its output names what is missing.
+   ```bash
+   gh repo create <owner>/<name> --<visibility> --description "<one sentence from the README>"
+   ```
+
+   Mention the alternative github.com/new with *no* README, license or `.gitignore`. Once it exists, add it as `origin` and `git push -u origin main`. For target 3: write the ZIP next to the folder.
+
+Right after setup, `python3 scripts/check_skillset.py` fails on `printed-canvas` (no canvas template until `/design-canvas`) and on `plugin-list` and `skill-refs` (the setup skill is listed and referenced but not drafted until `/draft-skill`). Tell the user these three are expected; any other failure is a setup problem.
 
 Done when the repository exists at the chosen target, the user has its path or URL, and `design/SKILLSET-CANVAS.md` has its header filled. Suggest `/grill-practice`.
