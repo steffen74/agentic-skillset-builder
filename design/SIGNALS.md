@@ -2,6 +2,13 @@
 
 Everything that shows how the work is going: dry runs and checks before something counts, and what happened after. Newest first. The retro skill turns signals into fixes, checks and rules.
 
+## 2026-11-22 · core · design-canvas (Agentic Business Model Canvas)
+
+- **What happened:** The printed canvas of the first skillset built with the builder had a subtitle running into the header field lines, and a long block title shrunk to 11 px.
+- **Who:** maintainer, reviewing the printed canvas as `/design-canvas` asks
+- **Severity:** friction
+- **Status:** subtitle fixed in core 0.1.2; long block titles stay the skillset's job (shorten the name), as `/design-canvas` says
+
 ## 2026-11-21 · setup-skillset · session
 
 - **What happened:** `gh repo create` was refused in a cloud session that may only reach repositories already attached to it. The maintainer had to ask for the exact command, and expects to need it every time.

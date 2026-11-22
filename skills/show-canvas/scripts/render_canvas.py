@@ -353,8 +353,9 @@ def svg(canvas, source_text, subtitle, footer, lang):
            f'<desc>template-sha256:{hashlib.sha256(source_text.encode("utf-8")).hexdigest()[:12]}</desc>',
            f'<rect x="0" y="0" width="{W}" height="{H}" fill="#FFFFFF"/>',
            f'<text x="{M}" y="58" font-size="26" font-weight="700" fill="#2C2C2A">{esc(canvas["title"])}</text>']
-    if subtitle:
-        out.append(f'<text x="{M}" y="82" font-size="13" fill="#5F5E5A">{esc(subtitle)}</text>')
+    if subtitle:                               # shrink a long subtitle so it stays left of the header fields
+        sub_size = 13 if len(subtitle) * 6.6 <= 590 else max(9, round(13 * 590 / (len(subtitle) * 6.6), 1))
+        out.append(f'<text x="{M}" y="82" font-size="{sub_size}" fill="#5F5E5A">{esc(subtitle)}</text>')
 
     # Header fields as labelled lines on the right, at most three (Version is printed in the footer).
     fields = [k for k, _ in canvas["fields"] if k.lower() not in ("version", "stand")][:3]

@@ -1,5 +1,5 @@
 {
-  "core_version": "0.1.1",
+  "core_version": "0.1.2",
   "source": "https://github.com/steffen74/agentic-skillset-builder",
   "setup": "setup-skillset",
   "files": [
@@ -42,8 +42,8 @@
       "core": "files/render_canvas.py",
       "path": "skills/show-canvas/scripts/render_canvas.py",
       "mode": "verbatim",
-      "core_sha": "b53de6d04972",
-      "sha": "b53de6d04972"
+      "core_sha": "e3b4b3e2fd8a",
+      "sha": "e3b4b3e2fd8a"
     }
   ]
 }
