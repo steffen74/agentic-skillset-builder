@@ -13,7 +13,7 @@ How the skillset runs: the process, the skills that carry it, and the files they
 
 | Skill | Role | User-invoked | Reads | Writes | Canvas blocks | Status | Adapted from |
 |---|---|---|---|---|---|---|---|
-<!-- Status: planned · drafted · dry-run · released. Role: from draft-skill/roles/. -->
+<!-- Status: planned · drafted · dry-run · released. Role: from skillset-conventions/roles/. -->
 
 ## Files in a project
 
