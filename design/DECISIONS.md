@@ -2,6 +2,15 @@
 
 One entry per decision, newest first. People decide; the agent proposes and records.
 
+## 2026-11-22: GitHub Pages as the default site of a skillset
+
+- **Context:** Skillsets get a course in `course/` (decision in the Agentic Business Model Canvas, K1–K4); users like course participants do not read repositories. Whether a host (e.g. opencampus GitBook) stays is uncertain.
+- **Decision:** Every skillset can publish a site; the default is GitHub Pages, built by a GitHub Actions workflow that is part of the core (same for all skillsets, synced with `/sync-core`). The site contains README, canvas guide, the canvas as a page (from `render_canvas.py`) and as PDF, the course and docs. `/setup-skillset` and `/review-skillset` ask: GitHub Pages (default), another host, or none. Pages are switched on when the repository becomes public (Pages for private repositories needs a paid plan and is public anyway outside Enterprise Cloud).
+- **Reason:** One default that works without depending on a platform whose future is unclear; a core workflow keeps all skillset sites alike.
+- **Alternatives:** GitBook Git Sync; no site; a site only on request.
+- **Canvas:** 7, 9
+- **Status:** to implement after the dry run of the Agentic Business Model Canvas, together with the course extension (K4).
+
 ## 2026-11-21: The builder itself starts as a private GitHub repository
 
 - **Context:** Where to create the builder (Q18 of the grilling session).

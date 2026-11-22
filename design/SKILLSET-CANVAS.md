@@ -61,6 +61,8 @@ Planned after the Changemaker skillset: adopt the core in Agentic Data Science a
 ---
 
 ## Open questions
+- Implement: optional course in `course/` (grill question, review check, dry-run artefacts as exercises) and GitHub Pages as default site via a core workflow. (Agent, after the ABMC dry run)
+- Pages tooling: Jekyll (no build) or MkDocs Material (build in Actions)? (Steffen, when implementing)
 - Is opencampus.gitbook.io reachable from the session that builds the Changemaker skillset, or is there a source repository for the handbook? (Steffen, before `/map-sources`)
 
 ## Decision log
