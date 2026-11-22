@@ -41,7 +41,7 @@ A table, ordered by process step:
 | # | Skill · step | Finding | Kind | Severity (blocker · friction · note) | Evidence | Suggested fix (skill, file) |
 |---|---|---|---|---|---|---|
 
-Then: steps run without finding; what was executed vs. only read; the artefacts the run produced (keep them in `examples/<case>/run-YYYY-MM-DD/` when they are useful as an example, otherwise discard the scratch project).
+Then: steps run without finding; what was executed vs. only read; the artefacts the run produced. Keep them in `examples/<case>/run-YYYY-MM-DD/` (project files without the installed skills, transcripts, a `git bundle` with one commit per skill, a README marking everything fictitious): they become the worked example and the exercise material of the course.
 
 Append a dated entry to `design/SIGNALS.md` (source: *dry run*, persona, skills, counts per kind and severity) and set the dry-run status in `design/SKILL-MAP.md`.
 

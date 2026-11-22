@@ -7,7 +7,9 @@
 2. *Present and ask*, one section at a time, recommendation first, skipping what exploration settled: visibility (stop if private content would land in a public place), other locations, project context in one sentence (the rest is for grill), the unit of work if the process repeats (week, sprint, iteration), tools the project already uses.
 3. *Write*: copy `templates/` to the project root without overwriting; fill the canvas header and the one-sentence draft of block 1; link existing material instead of copying; add the skillset's section to `AGENTS.md` (canvas, companion files, decision log, signal log, checks command, locations, language, unit).
 
-**Stop point.** The user confirms the `AGENTS.md` section.
+Also create `CLAUDE.md` containing `@AGENTS.md` when it is missing (Claude Code loads `CLAUDE.md`, other agents `AGENTS.md`). Ask about visibility when there is no remote.
+
+**Stop point.** The user confirms the `AGENTS.md` section, explained in one plain sentence.
 
 **Done when** every file exists and the section is confirmed. Suggest the grill skill.
 

@@ -9,4 +9,6 @@
 
 **Stop point.** The verdict is the user's, and so is every finding with more than one reasonable fix. Ask as multiple-choice questions that carry their own context (what and where, why it matters, constraints, options with consequences, recommendation first); ask the verdict last. Apply only the chosen fixes, rerun failed checks, log the verdict.
 
-**Done when** the verdict is logged and the artefact's status is set.
+Explain the severity words in one plain sentence ("blocking means: clear this up before you build on it"). Name the follow-up skill for each possible verdict.
+
+**Done when** the verdict is logged and the artefact's status is set. Offer a commit.

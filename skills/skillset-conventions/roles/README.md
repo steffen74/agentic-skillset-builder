@@ -18,4 +18,9 @@ Every skill of a skillset plays one role. The skeleton file of a role gives its 
 | checks reference | [reference-checks.md](reference-checks.md) | model | yes | `data-checks`, `course-checks` | – |
 | boundary reference | [reference-boundary.md](reference-boundary.md) | model | yes | `leakage`, `assumed-knowledge` | – |
 
-Common to all user-invoked roles: read the canvas and the project files named in the skillset's section of `AGENTS.md` first; never re-ask what is written down; end every step on a completion criterion; log every decision the user owns.
+Common to all user-invoked roles: read the canvas and the project files named in the skillset's section of `AGENTS.md` first; never re-ask what is written down; end every step on a completion criterion; log every decision the user owns. Four patterns every skillset needs (found in the first dry run of the Agentic Business Model Canvas, where a weak persona nodded along):
+
+- **Own words first.** For content the user owns (a problem statement, a goal, a vision, a recommendation), ask for the user's words before offering a suggestion; when the user adopts the agent's wording unchanged, log that in the decision log. A ➡️ recommendation that is accepted with "ok" otherwise becomes the content.
+- **Input in chat.** Users paste notes, results or data into the chat instead of the file the skill expects. A skill that reads a project file says what to do then: copy the input verbatim into the file, in the expected format, and confirm the mapping.
+- **Approval in small steps.** Show at most about five items per approval; the consequential ones first. A blanket "ok" never approves a consequential change (one that turns an assumption into a fact, releases something, or changes a status); ask for those one by one.
+- **Commit at the end.** Every skill that writes project files ends by offering a commit (when the project uses git), so later skills can rely on the history (for example, that a threshold was set before a result).

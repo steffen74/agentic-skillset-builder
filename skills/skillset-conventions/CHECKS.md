@@ -19,6 +19,8 @@ A skillset fails quietly: a skill that points to a file no other skill writes, a
 | Every adopted source has a license entry, and `NOTICE.md` covers it | `design/SOURCES.md` | manual |
 | No rule contradicts its source without a decision explaining why | `design/SOURCES.md` | manual |
 | A dry run on the example case is newer than the last skill change, without open blockers | `design/SIGNALS.md` | manual |
+| Users can learn the skillset: a quickstart in the README, a worked example in `examples/`, and a course in `course/` when block 2 says users need one | `design/SKILLSET-CANVAS.md` block 2 | manual |
+| The site target is decided (GitHub Pages, other host, none) and recorded in `AGENTS.md` | `design/DECISIONS.md` | manual |
 | Links resolve | The web | automated (link checker, when available) |
 
 Every dry-run finding becomes a check, a skill change, or a recorded decision that it is not worth one. Add new checks to this file in the builder when they apply to all skillsets, otherwise to the skillset's own `CONTRIBUTING.md`.

@@ -7,4 +7,4 @@
 2. *Stop point*: present the problems first (unserved goals, items used before they are inside the boundary, over budget), each with a recommended fix. The user decides; log structural choices.
 3. *Checks*: add the plan-level checks the user confirmed to the checks file (format from the checks reference).
 
-**Done when** the user has confirmed the plan and every problem is fixed or open with an owner.
+**Done when** the user has confirmed the plan and every problem is fixed or open with an owner. Offer a commit, so later skills can show that targets and thresholds came before results.

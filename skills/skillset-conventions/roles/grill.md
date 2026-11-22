@@ -10,7 +10,7 @@
 ➡️ <recommended answer, and why>
 ```
 
-Wait, write the answers down, recompute the frontier, ask the next round. A question that depends on another open question of this round belongs to a later round. **Facts are the agent's job, decisions the user's**: look up whatever can be looked up, dispatching a sub-agent for long reads while asking the rest of the frontier.
+Wait, write the answers down, recompute the frontier, ask the next round. Announce roughly how many rounds are left; keep rounds short enough for the weakest persona (a cap such as five questions per round). For content the user owns, ask for their own words before your recommendation (see *Own words first* in the catalogue). "I don't know" is a valid answer: record it as an open question and treat the point as settled for this round. A question that depends on another open question of this round belongs to a later round. **Facts are the agent's job, decisions the user's**: look up whatever can be looked up, dispatching a sub-agent for long reads while asking the rest of the frontier.
 
 **What to probe.** One bullet per block in scope, each with the domain's typical weakness (a topic list instead of a change; an average user instead of the weakest; a goal without evidence). For the boundary block: invent concrete scenarios from the user's own case that force a precise answer.
 

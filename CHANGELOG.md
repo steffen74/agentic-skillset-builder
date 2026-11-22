@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Role skeletons carry four patterns from the first dry run of a built skillset: own words before suggestions, input pasted in chat, approval in small steps, a commit offer at the end of every writing skill. `setup` creates `CLAUDE.md` with `@AGENTS.md`.
+- Skillsets can carry a self-study course in `course/` (built with Agentic Course Creation from dry-run material) and publish a site, GitHub Pages by default: new questions in `/setup-skillset` (F. Site) and `/grill-practice` (how users learn), new checks in `skillset-conventions/CHECKS.md` and `/review-skillset`; `/dry-run` keeps its artefacts as worked example.
 - Core 0.1.2: `render_canvas.py --print` shrinks a long subtitle so it no longer runs into the header fields.
 - `/setup-skillset` prints the exact `gh repo create` command when the session cannot create the repository itself.
 - First draft: Skillset Canvas (guide, printed SVG and PDF, template), process, principles, eleven user-invoked skills, two reference skills (`skillset-conventions` with role catalogue and skeletons, `skillset-core`) and the maintainer skill `release-skillset`.

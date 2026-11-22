@@ -16,6 +16,7 @@ Load `skillset-conventions` and its `CHECKS.md`. Run `python3 scripts/check_skil
 - every block settled or drafted by a skill, every file read has a writer, every user-owned decision is a stop point;
 - each skill matches its role skeleton, each step has a completion criterion, descriptions follow the invocation rule;
 - language rule; README, process and principles filled (no `{{placeholder}}` left: search for `{{`);
+- users can learn the skillset (quickstart, worked example, course if block 2 calls for one); the site target is decided;
 - `NOTICE.md` and `LICENSE-docs.md` match `design/SOURCES.md`.
 
 ## Axis 2: Practice
@@ -29,7 +30,7 @@ If no dry run exists, or skills changed after it, run `/dry-run` first. Then che
 
 ## Report
 
-One list, each finding marked **blocking** (a user would get stuck, be misled, or the agent would take their decision) or **note**, with evidence and a suggested fix. End with a recommendation: **release**, **fix then release** (list the fixes) or **hold**. When the repository is private and the dry run passed, recommend whether to make it public.
+One list, each finding marked **blocking** (a user would get stuck, be misled, or the agent would take their decision) or **note**, with evidence and a suggested fix. End with a recommendation: **release**, **fix then release** (list the fixes) or **hold**. When the repository is private and the dry run passed, recommend whether to make it public, and, with it, whether to switch on the site (default GitHub Pages).
 
 ## Decisions
 

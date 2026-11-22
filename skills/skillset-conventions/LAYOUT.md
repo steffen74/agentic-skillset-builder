@@ -23,7 +23,9 @@ skills/<setup>/templates/    canvas template (single source) and the other proje
 skills/show-canvas/          core
 skills/<other skills>/
 design/                      how the skillset was designed (see below)
-examples/<case>/             the case used for dry runs
+examples/<case>/             the case used for dry runs; examples/<case>/run-<date>/ keeps a dry run's project, transcripts and git bundle as worked example and exercise material
+course/                      optional self-study course for the skillset's users, built with Agentic Course Creation from the dry-run material
+site: GitHub Pages (default) built from README, canvas/, course/, docs/ by a core workflow, switched on when the repository is public
 ```
 
 ## `design/` (written by the builder's skills)

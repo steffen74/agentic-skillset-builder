@@ -27,6 +27,7 @@ Take the sections in order, one answer each, leading with your recommendation. S
   Every option builds locally first; GitHub and ZIP are ways out. With option 1, the GitHub question returns at the first release.
 - **D. Sources.** Where the domain logic comes from (handbook URL, documents, existing canvases, own practice). A list is enough; `/map-sources` does the rest. Check now whether each URL is reachable from this environment, and say which are not.
 - **E. Example case.** A realistic case for dry runs (a fictitious project the skillset's users would bring). One sentence is enough; `/grill-practice` sharpens it.
+- **F. Site.** Where users will read the skillset (README, canvas, later a course): GitHub Pages (recommended default, switched on when the repository becomes public), another host, or none.
 
 **Stop point**: summarise A–E and get a yes before writing anything.
 
