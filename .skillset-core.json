@@ -49,8 +49,8 @@
       "core": "files/show-canvas.SKILL.md",
       "path": "skills/show-canvas/SKILL.md",
       "mode": "adapted",
-      "core_sha": "e8444049a036",
-      "sha": "e8444049a036"
+      "core_sha": "886636bfcda0",
+      "sha": "886636bfcda0"
     },
     {
       "core": "files/render_canvas.py",
