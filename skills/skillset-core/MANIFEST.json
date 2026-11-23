@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "source": "https://github.com/steffen74/agentic-skillset-builder",
   "files": [
     {"core": "files/show-canvas.SKILL.md", "path": "skills/show-canvas/SKILL.md", "mode": "adapted"},
