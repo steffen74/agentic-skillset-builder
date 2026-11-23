@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 0.1.0 (2026-11-23)
+
+First release, after building the Agentic Business Model Canvas with the builder and a recap of Agentic Course Creation. Core 0.2.3.
+
 - Core 0.2.3: `show-canvas` uses `python` or `py` on Windows, where `python3` may open the Microsoft Store.
 - Core 0.2.2: `show-canvas` falls back to showing the canvas as text when Python is missing (found in a course walk-through: Python is not on a fresh Windows machine).
 - Core 0.2.1: the Pages workflow runs only in public repositories.

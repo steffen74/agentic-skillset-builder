@@ -2,6 +2,14 @@
 
 One entry per decision, newest first. People decide; the agent proposes and records.
 
+## 2026-11-23: First release 0.1.0, public
+
+- **Context:** The builder has built the Agentic Business Model Canvas (released as 0.9.0) and recapped Agentic Course Creation (0.3.0); the maintainer asked to prepare the release and make the repository public.
+- **Decision:** Release 0.1.0, the version already in `plugin.json`. No separate dry run of the builder itself: its two real uses count as runs, and their signals are recorded in the two skillsets and in `examples/agentic-business-model-canvas.md`.
+- **Reason:** The links from the released skillsets point here; the builder has been exercised end to end once.
+- **Alternatives:** a higher pre-1.0 version (nothing marks the builder as nearly done); a dry run of `/setup-skillset` on a fresh case first (later, with the third skillset).
+- **Canvas:** –
+
 ## 2026-11-22: GitHub Pages as the default site of a skillset
 
 - **Context:** Skillsets get a course in `course/` (decision in the Agentic Business Model Canvas, K1–K4); users like course participants do not read repositories. Whether a host (e.g. opencampus GitBook) stays is uncertain.

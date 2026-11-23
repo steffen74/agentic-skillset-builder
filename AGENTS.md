@@ -16,6 +16,6 @@ Instructions for agents working on this repository (the builder itself, not a sk
 - Design files: `design/` (personas, sources, skill map, decisions, signals)
 - Canvas template: `skills/setup-skillset/templates/design/SKILLSET-CANVAS.md`
 - Printed canvas: `canvas/skillset-canvas.svg` and `.pdf`, made with `python3 skills/show-canvas/scripts/render_canvas.py skills/setup-skillset/templates/design/SKILLSET-CANVAS.md --print --lang en --out canvas/skillset-canvas.svg --pdf canvas/skillset-canvas.pdf --subtitle "The agent does the legwork, the maintainer decides, a dry run comes before release." --footer "Skillset Canvas v0.1 · CC BY 4.0 · github.com/steffen74/agentic-skillset-builder"`
-- Example case: the Agentic Business Model Canvas skillset (built next; a compact record goes to `examples/`)
+- Example case: the Agentic Business Model Canvas skillset (`examples/agentic-business-model-canvas.md`)
 - Checks: `python3 scripts/check_skillset.py`
 - Core: `.skillset-core.json`; this repository is the core's source

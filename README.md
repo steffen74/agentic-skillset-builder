@@ -2,7 +2,7 @@
 
 A canvas, a process and a set of agent skills for building **agentic skillsets**: a canvas, a process and agent skills for one kind of work, used with a coding agent, without handing over the judgement.
 
-> Status: **v0.1, draft.** Distilled from [Agentic Data Science](https://github.com/steffen74/agentic-data-science) and [Agentic Course Creation](https://github.com/steffen74/agentic-course-creation), the first two skillsets of this kind; first real use: an Agentic Business Model Canvas skillset for the opencampus.sh course “Become a Changemaker”.
+> Status: **v0.1.** Worked example: [Agentic Business Model Canvas](examples/agentic-business-model-canvas.md). Distilled from [Agentic Data Science](https://github.com/steffen74/agentic-data-science) and [Agentic Course Creation](https://github.com/steffen74/agentic-course-creation), the first two skillsets of this kind; first real use: an Agentic Business Model Canvas skillset for the opencampus.sh course “Become a Changemaker”.
 
 ## Why
 
