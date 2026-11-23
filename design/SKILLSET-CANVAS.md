@@ -61,6 +61,7 @@ Planned after the Changemaker skillset: adopt the core in Agentic Data Science a
 ---
 
 ## Open questions
+- Material for MkDocs reaches end of life on 2027-05-05; check Zensical compatibility before then. (Steffen, Q1 2027)
 - Implement: optional course in `course/` (grill question, review check, dry-run artefacts as exercises) and GitHub Pages as default site via a core workflow. (Agent, after the ABMC dry run)
 - Is opencampus.gitbook.io reachable from the session that builds the Changemaker skillset, or is there a source repository for the handbook? (Steffen, before `/map-sources`)
 

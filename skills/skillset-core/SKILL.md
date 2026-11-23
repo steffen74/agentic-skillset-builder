@@ -14,6 +14,8 @@ The **core** is the set of files that every skillset built with this builder car
 | `check_skillset.py` | `scripts/` | verbatim | Convention checks for a skillset repository |
 | `release-skillset.SKILL.md` | `.claude/skills/release-skillset/SKILL.md` | verbatim | Maintainer skill: version bump, changelog, printed canvas, tag, release |
 | `DECISIONS.md`, `SIGNALS.md` | `skills/<setup skill>/templates/` | adapted | Templates for the project's decision log and signal log |
+| `build_site.py` | `scripts/` | verbatim | Assembles the website (MkDocs Material): README, course, canvas guide with printed and interactive canvas, docs; links outside the site go to GitHub |
+| `pages.yml` | `.github/workflows/` | verbatim | Builds and deploys the site on GitHub Pages on every push to `main`; switch on in Settings → Pages → Source: GitHub Actions |
 
 **Modes.** *Verbatim* files are copied byte for byte; a local change is a finding, and the fix goes into the core here, then out to every skillset with `/sync-core`. *Adapted* files are translated into the skillset's language or adapted to its vocabulary (a skillset may call its signal log `LOG.md`); when the master changes, `core_sync.py status` prints the master's diff so the change can be carried over by hand.
 
