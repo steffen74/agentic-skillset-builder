@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Core 0.2.1: the Pages workflow runs only in public repositories.
 - Core 0.2.0: a website for every skillset – `scripts/build_site.py` assembles README, course, canvas guide (printed and interactive blank canvas) and docs for MkDocs Material; `.github/workflows/pages.yml` builds and deploys it on GitHub Pages. Note: Material for MkDocs reaches end of life in May 2027 (successor: Zensical).
 - Core 0.1.5: more built-in agent commands (OpenCode `/connect`, `/models`; Claude Code `/doctor`, `/reload-plugins` …) are not reported as missing skills.
 - Core 0.1.4: `check_skillset.py` skips folders listed in the optional `AGENTS.md` line `- Other skillsets in:` (e.g. a course planned with Agentic Course Creation inside a skillset repo).
