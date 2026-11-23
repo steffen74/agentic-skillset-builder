@@ -78,6 +78,8 @@ def cmd_init(a):
         path = entry["path"].replace("{setup}", lock.get("setup") or a.setup)
         dest = target / path
         if dest.exists():
+            lock["files"].append({"core": entry["core"], "path": path, "mode": entry["mode"],
+                                  "core_sha": None, "sha": None})
             print(f"exists, not overwritten: {path} (compare it with the core, then `record` or `skip` it)")
             continue
         dest.parent.mkdir(parents=True, exist_ok=True)
@@ -109,7 +111,9 @@ def status(target):
         core_changed = sha(CORE / entry["core"]) != f["core_sha"]
         local = target / f["path"]
         local_changed = sha(local) != f["sha"]
-        if not local.exists():
+        if f.get("sha") is None and f.get("core_sha") is None:
+            state, note = "adopt", "existing file not yet compared with the core: replace and `record`, merge and `record`, or `skip`"
+        elif not local.exists():
             state, note = "missing", "file deleted: restore with `init` after removing it from the lock, or `skip`"
         elif f["mode"] == "verbatim":
             state, note = {(False, False): ("ok", ""),
