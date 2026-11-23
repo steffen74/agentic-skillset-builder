@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Core 0.2.3: `show-canvas` uses `python` or `py` on Windows, where `python3` may open the Microsoft Store.
 - Core 0.2.2: `show-canvas` falls back to showing the canvas as text when Python is missing (found in a course walk-through: Python is not on a fresh Windows machine).
 - Core 0.2.1: the Pages workflow runs only in public repositories.
 - Core 0.2.0: a website for every skillset – `scripts/build_site.py` assembles README, course, canvas guide (printed and interactive blank canvas) and docs for MkDocs Material; `.github/workflows/pages.yml` builds and deploys it on GitHub Pages. Note: Material for MkDocs reaches end of life in May 2027 (successor: Zensical).
