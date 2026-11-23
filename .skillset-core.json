@@ -1,5 +1,5 @@
 {
-  "core_version": "0.1.2",
+  "core_version": "0.1.3",
   "source": "https://github.com/steffen74/agentic-skillset-builder",
   "setup": "setup-skillset",
   "files": [
@@ -14,8 +14,8 @@
       "core": "files/check_skillset.py",
       "path": "scripts/check_skillset.py",
       "mode": "verbatim",
-      "core_sha": "08e91ca4a16d",
-      "sha": "08e91ca4a16d"
+      "core_sha": "d8488fca8989",
+      "sha": "d8488fca8989"
     },
     {
       "core": "files/DECISIONS.md",

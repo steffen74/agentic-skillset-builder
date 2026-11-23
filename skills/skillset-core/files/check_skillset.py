@@ -21,6 +21,9 @@ import sys
 
 ROOT = pathlib.Path.cwd()
 SECTION = "## Agentic skillset builder"
+# Agent built-in commands and placeholders that are not skills.
+BUILTIN = {"mcp", "help", "clear", "compact", "config", "init", "model", "plugin", "plugins", "agents", "permissions",
+           "memory", "review", "skills", "status", "login", "logout", "command", "skill", "name"}
 # Skills of the Agentic Skillset Builder: skillset repos refer to them in design/, AGENTS.md and the release skill.
 BUILDER_SKILLS = {"setup-skillset", "ask-builder", "grill-practice", "map-sources", "design-canvas", "to-skill-map",
                   "draft-skill", "dry-run", "review-skillset", "skillset-retro", "sync-core", "show-canvas"}
@@ -110,7 +113,7 @@ def main():
         if any(part in (".git", "node_modules", "build") for part in md.parts):
             continue
         for ref in re.findall(r"`/([a-z][a-z0-9-]*)(?=[\s`])", md.read_text(encoding="utf-8")):
-            if ref not in names | BUILDER_SKILLS:
+            if ref not in names | BUILDER_SKILLS | BUILTIN:
                 unknown.setdefault(ref, set()).add(str(md.relative_to(ROOT)))
     report("skill-refs", not unknown,
            "; ".join(f"/{r} in {', '.join(sorted(f))}" for r, f in sorted(unknown.items())) or "all skill references resolve")
