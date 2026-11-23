@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Core 0.1.4: `check_skillset.py` skips folders listed in the optional `AGENTS.md` line `- Other skillsets in:` (e.g. a course planned with Agentic Course Creation inside a skillset repo).
 - Core 0.1.3: `check_skillset.py` ignores agent built-in commands (`/mcp`, `/help` …) and placeholders (`/command`) in skill references.
 - `core_sync.py init` records files that already exist in the target as *adopt*, so `record` and `skip` work on them (found when adopting the core in Agentic Course Creation).
 - Role skeletons carry four patterns from the first dry run of a built skillset: own words before suggestions, input pasted in chat, approval in small steps, a commit offer at the end of every writing skill. `setup` creates `CLAUDE.md` with `@AGENTS.md`.

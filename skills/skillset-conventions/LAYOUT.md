@@ -51,5 +51,6 @@ site: GitHub Pages (default) built from README, canvas/, course/, docs/ by a cor
 - Printed canvas: `canvas/<name>-canvas.svg` and `.pdf`, made with `python3 skills/show-canvas/scripts/render_canvas.py skills/<setup>/templates/<CANVAS>.md --print --lang <code> --out canvas/<name>-canvas.svg --pdf canvas/<name>-canvas.pdf --subtitle "<tagline>" --footer "<Name> Canvas v<X.Y> · <license> · <repo URL>"`
 - Example case: `examples/<case>/`
 - Checks: `python3 scripts/check_skillset.py`
+- Other skillsets in: `course/planning/` (optional: folders that use another skillset's commands, e.g. the course built with Agentic Course Creation)
 - Core: `.skillset-core.json`, synced with `/sync-core` from the agentic skillset builder
 ```
