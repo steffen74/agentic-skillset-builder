@@ -9,7 +9,7 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Reason:** One default that works without depending on a platform whose future is unclear; a core workflow keeps all skillset sites alike.
 - **Alternatives:** GitBook Git Sync; no site; a site only on request.
 - **Canvas:** 7, 9
-- **Status:** to implement after the dry run of the Agentic Business Model Canvas, together with the course extension (K4).
+- **Status:** layout, questions and checks implemented 2026-11-22; tooling decided 2026-11-23: MkDocs Material, built in GitHub Actions (better navigation and readability for course participants; one build step in the core workflow). Workflow to implement with the first site (Agentic Business Model Canvas release).
 
 ## 2026-11-21: The builder itself starts as a private GitHub repository
 
